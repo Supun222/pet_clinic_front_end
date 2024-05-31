@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { loadUser } from './store/actions/authActions';
 import PrivateRoute from './components/routes/PrivateRoute';
 import Login from './components/login/login';
-import Dashboard from './components/home/dashboard';
+import Home from './components/home/Home';
 import './index.css';
 
 const App: React.FC = () => {
@@ -20,10 +20,10 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route
-            path="/protected"
+            path="/home"
             element={
               <PrivateRoute>
-                <Dashboard />
+                <Home />
               </PrivateRoute>
             }
           />

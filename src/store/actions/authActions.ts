@@ -38,9 +38,9 @@ export const login = (
       }, {
         headers: {'Content-Type': 'application/json'}
       });
-      const { token } = response.data.access_token;
-      saveToken(jwtDecode(token));
-      dispatch({ type: LOGIN_SUCCESS, payload: jwtDecode(token) });
+      const access_token = response.data.access_token;
+      saveToken(access_token);
+      dispatch({ type: LOGIN_SUCCESS, payload: access_token });
     } catch (error: any) {
       dispatch({ type: AUTH_ERROR, payload: error.message });
     }
