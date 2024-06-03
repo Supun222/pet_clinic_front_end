@@ -1,0 +1,15 @@
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 13px;
+    border-radius: 0.375rem;
+}
+
+.btn-primary {
+    background-color: #e5efef;
+    border-color: rgba(0, 102, 102, 0.06);
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 102, 102, 0.06);
+    border-color: rgba(0, 102, 102, 0.06);
+}

@@ -1,0 +1,27 @@
+.form-control {
+    background-color: rgba(0, 102, 102, 0.1);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    appearance: none; /* Removes default styling */
+    display: block; /* Makes the element a block-level element */
+    width: 100%; /* Full width */
+    background-color: #edf2f7; /* Corresponds to bg-gray-200 */
+    color: #4a5568; /* Corresponds to text-gray-700 */
+    border: none; /* Removes the border */
+    border-radius: 0.5rem; /* Corresponds to rounded-lg */
+    padding-top: 0.75rem; /* Corresponds to py-3 */
+    padding-bottom: 0.75rem; /* Corresponds to py-3 */
+    padding-left: 1rem; /* Corresponds to px-4 */
+    padding-right: 1rem; /* Corresponds to px-4 */
+    margin-bottom: 0.75rem; /* Corresponds to mb-3 */
+    line-height: 1.25; 
+}
+
+
+.form-control:focus {
+    order: 1px solid #b9c1cc;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}

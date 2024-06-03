@@ -1,19 +1,38 @@
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
-p {
+p, input {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 425;
     font-size: 14px;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.7px;
 }
 
 label {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 550;
+    font-weight: 525;
     font-size: 14px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.4px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1;
+
 }

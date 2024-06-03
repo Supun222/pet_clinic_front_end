@@ -5,7 +5,7 @@ import { loadUser } from './store/actions/authActions';
 import PrivateRoute from './components/routes/PrivateRoute';
 import Login from './components/login/login';
 import Home from './components/home/Home';
-import './index.css';
+import './styles/main.css';
 
 const App: React.FC = () => {
   const dispatch = useDispatch<any>();

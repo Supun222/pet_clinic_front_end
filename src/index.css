@@ -1,3 +1,4 @@
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -5,3 +6,5 @@
 @import "./styles/base/_fonts.scss";
 @import "./styles/base/_reset.scss";
 @import "./styles/base/_typography.scss";
+@import "./styles/components/buttons.scss";
+@import "./styles/components/inputs.scss";
